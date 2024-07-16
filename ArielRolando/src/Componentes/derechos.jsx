@@ -11,9 +11,9 @@ const Derechos = () => {
 
     const containerStyle = {
         width: '1900px',
-            
         position: 'absolute',
         left: '10px',
+        marginTop: '380px' 
     };
 
     const textContainerStyle = {
@@ -35,6 +35,7 @@ const Derechos = () => {
 
     return (
         <div style={containerStyle}>
+            <br /><br /><br />
             <div style={rowStyle}>
                 <div style={textContainerStyle}>
                     <p style={pStyle1}>Argentina</p>
